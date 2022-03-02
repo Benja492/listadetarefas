@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lista de tarefas</title>
+    <link rel="stylesheet" href="style.css">
+	
+</head>
+<body>
+	<div class='content'>
+			<div class="row">
+					<div class="col-12">
+						<h1> Lista de tarefas </h1>
+						<form>
+							<input type="text" name="task" id='task' placeholder="Novo Item..."/>
+							<input type="button" name="" 
+									onclick="addTask();" 
+									value="+"/>
+						</form>
+					</div>
+			</div>
+			<div class="row">
+				<div class="col-12">
+					<div class="to-do-list-box">
+						<label>Minha lista</label>
+						<ul id="myList">	
+						</ul>
+					</div>
+
+				</div>
+			</div>
+
+	</div>
+
+
+<script src="scripts.js"></script>
+
+</body>
+</html>
